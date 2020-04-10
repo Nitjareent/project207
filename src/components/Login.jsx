@@ -3,6 +3,7 @@ import React from 'react'
 import firebase from '../firebase/firebase'
 import Navbar from './Navbar'
 import MessageList from './MessageList'
+import Contact from './Contact'
 
 
 class Login extends React.Component{
@@ -136,6 +137,7 @@ class Login extends React.Component{
                                    <button className="button is-link">Login</button>
                                </div>
                            </div>
+                           <Contact/>
                        </form>
                    </div>
                </div>
