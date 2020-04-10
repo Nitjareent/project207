@@ -8,7 +8,6 @@ function Message(props) {
        <article className="media">
            <figure className="media-left">
                <p className="image is-64x64">
-                   <img src={props.image} alt="User's" />
                </p>
            </figure>
            <div className="media-content">
@@ -21,7 +20,7 @@ function Message(props) {
                </div>
            </div>
            <div className="media-right">
-               <button className="delete" onClick={props.delete} value={props.id} />
+               <button className="delete" onClick={props.delete} value={props.id} >delete</button>
            </div>
        </article>
    )

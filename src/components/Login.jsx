@@ -16,7 +16,7 @@ class Login extends React.Component{
             messages: [],
             currentUser: null,
             image: '',
-            comment: ''
+            comment: 'ผัดกระเพรา '
         }
         this.logout = this.logout.bind(this)
     }
@@ -47,7 +47,7 @@ class Login extends React.Component{
         .doc(this.state.currentUser.email)
         .collection('messages')
         .add({
-            text: this.state.comment,
+            text: "ผัดกระเพรา จำนวน " + this.state.comment + " จาน รวมราคา = " + (this.state.comment)*40 + "บาท",
             timestamp: new Date()
         })
 

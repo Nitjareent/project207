@@ -11,7 +11,7 @@ function MessageList(props) {
                (() => {
                    let result = []
                    props.messages.forEach((element) => {
-                       result.push(<Message image={props.image} key={element.id} id={element.id} data={element.data()} delete={props.delete} />)
+                       result.push(<Message  key={element.id} id={element.id} data={element.data()} delete={props.delete} />)
                    })
                    return result
                })()
