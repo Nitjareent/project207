@@ -1,7 +1,7 @@
-import firebase from '../../node_modules/firebase'
-import '../../node_modules/firebase/empty-import'
-import '../../node_modules/firebase/empty-import'
-import '../../node_modules/firebase/empty-import'
+import firebase from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/firestore'
+import 'firebase/storage'
 import config from './config'
  
 if (!firebase.apps.length) {

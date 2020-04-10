@@ -1,10 +1,10 @@
-import React from '../../node_modules/@types/react'
+import React from 'react'
  
 function Comment(props) {
    return (
        <article className="media">
                <p className="image is-64x64">
-                   <img src={props.image} alt="user" />
+                   
                </p>
            <dir className="media-content">
                <div className="check">
@@ -16,7 +16,7 @@ function Comment(props) {
                
            </dir>
            <p className="image is-64x64">
-                   <img src={props.image} alt="user" />
+                   
                </p>
            <dir className="media-content">
                <div className="check">
@@ -28,7 +28,7 @@ function Comment(props) {
                
            </dir>
            <p className="image is-64x64">
-                   <img src={props.image} alt="user" />
+                   
                </p>
            <dir className="media-content">
                <div className="check">
@@ -40,7 +40,7 @@ function Comment(props) {
                
            </dir>
            <p className="image is-64x64">
-                   <img src={props.image} alt="user" />
+
                </p>
                
            <dir className="media-content">

@@ -1,5 +1,5 @@
-import React from '../../node_modules/@types/react'
-import './node_modules/bulma/css/bulma.css'
+import React from 'react'
+// import './node_modules/bulma/css/bulma.css'
 import firebase from '../firebase/firebase'
 import Navbar from './Navbar'
 import MessageList from './MessageList'

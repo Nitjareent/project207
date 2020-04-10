@@ -1,5 +1,5 @@
-import React from '../../node_modules/@types/react'
-import './node_modules/bulma/css/bulma.css'
+import React from 'react'
+// import './node_modules/bulma/css/bulma.css'
 import Message from './Message'
 import Comment from './Comment'
  
